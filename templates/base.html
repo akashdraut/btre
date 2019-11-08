@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{% static 'css/style.css'%}/">
     <!-- Lightbox -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css'%}/">
+
+    <title>BT Real Estate</title>
 </head>
 <body>
 
@@ -19,11 +21,8 @@
     {% include 'partials/_topbar.html' %}
 <!--  Navbar  -->
     {% include 'partials/_navbar.html' %}
-
-
-    {% block content %}
-
-    {% endblock %}
+<!-- Main content -->
+    {% block content %} {% endblock %}
 <!--  Footer  -->
     {% include 'partials/_footer.html' %}
 
