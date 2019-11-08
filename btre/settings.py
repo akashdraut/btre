@@ -142,9 +142,3 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-# Email Config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 465
-EMAIL_HOST_USER = 'akashdraut93@gmail.com'
-EMAIL_HOST_PASSWORD = 'smtwtfs1234567'
-EMAIL_USE_TLS = True
